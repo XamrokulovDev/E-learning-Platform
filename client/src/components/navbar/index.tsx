@@ -9,12 +9,12 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-        <nav className="w-full fixed top-0 left-0 shadow max-md:hidden py-4">
+        <nav className="w-full fixed top-0 left-0 shadow max-md:hidden bg-white py-4">
             <div className="container flex items-center justify-between">
-                <NavLink to="/" className="w-[75px] h-[75px]">
+                <NavLink to="/" className="w-[70px] h-[70px]">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dell_Logo.svg/2048px-Dell_Logo.svg.png" alt="" />
                 </NavLink>
-                <ul className="flex items-center gap-16">
+                <ul className="flex items-center gap-16 max-lg:gap-5">
                     <li>
                         <a href="" className="font-medium">{t("navbar.home")}</a>
                     </li>
